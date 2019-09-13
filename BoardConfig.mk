@@ -162,6 +162,15 @@ TARGET_TAP_TO_WAKE_NODE := "/sys/android_touch/doubletap2wake"
 # Encryption
 TARGET_HW_DISK_ENCRYPTION := true
 
+# Enable dexpreopt to speed boot time
+ifeq ($(HOST_OS),linux)
+    ifneq ($(TARGET_BUILD_VARIANT),eng)
+        ifeq ($(WITH_DEXPREOPT),)
+            WITH_DEXPREOPT := true
+        endif
+    endif
+endif
+
 # Filesystem
 TARGET_EXFAT_DRIVER := sdfat
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
