@@ -133,6 +133,11 @@ av.debug.disable.pers.cache=1
 media.settings.xml=/vendor/etc/media_profiles_V1_0.xml
 media.stagefright.thumbnail.prefer_hw_codecs=true
 
+# Memory optimizations
+ro.vendor.qti.sys.fw.bservice_enable=true
+ro.vendor.qti.sys.fw.bservice_limit=5
+ro.vendor.qti.sys.fw.bservice_age=5000
+
 # Perf Ux IOPrefetcher
 vendor.enable_prefetch=1
 vendor.iop.enable_uxe=1
