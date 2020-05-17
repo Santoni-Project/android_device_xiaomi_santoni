@@ -192,6 +192,7 @@ on charger
     start vendor.hvdcp_opti
 
 on boot
+	write /dev/cpuset/audio-app/cpus 0-1
 	write /dev/cpuset/top-app/cpus 0-7
 	write /dev/cpuset/top-app/boost/cpus 4-7
 	write /dev/cpuset/foreground/cpus 0-6
