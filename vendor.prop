@@ -240,3 +240,6 @@ sys.use_fifo_ui=1
 
 # Wifi-Display
 persist.sys.wfd.virtual=0
+
+# Zygote preforking
+persist.device_config.runtime_native.usap_pool_enabled=true
