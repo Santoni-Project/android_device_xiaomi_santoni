@@ -35,10 +35,10 @@
 #include <utils/Mutex.h>
 
 // Camera dependencies
-#include <android/hardware/power/1.0/IPower.h>
+#include <android/hardware/power/1.2/IPower.h>
 
 using namespace android;
-using ::android::hardware::power::V1_0::IPower;
+using ::android::hardware::power::V1_2::IPower;
 using ::android::hardware::power::V1_0::PowerHint;
 using ::android::hardware::Return;
 using ::android::hardware::Void;
