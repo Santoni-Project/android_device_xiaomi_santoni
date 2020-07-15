@@ -520,4 +520,5 @@ PRODUCT_PACKAGES += \
 # Add Prebuilt Apps
 PRODUCT_PACKAGES += \
     Via \
-    QPGallery
+    QPGallery \
+    OTO
