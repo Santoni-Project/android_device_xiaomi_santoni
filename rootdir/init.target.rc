@@ -160,13 +160,13 @@ service hbtp /vendor/bin/hbtp_daemon
     group system
     disabled
 
-on property:init.svc.surfaceflinger=stopped
+on property:init.svc.hwcomposer-2-3=stopped
     stop ppd
 
-on property:init.svc.surfaceflinger=running
+on property:init.svc.hwcomposer-2-3=running
     start ppd
 
-on property:init.svc.surfaceflinger=restarting
+on property:init.svc.hwcomposer-2-3=restarting
     stop ppd
 
 on property:init.svc.zygote=stopped
