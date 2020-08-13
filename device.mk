@@ -518,3 +518,7 @@ PRODUCT_BOOT_JARS += \
 #XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
+
+# Add Prebuilt Apps
+PRODUCT_PACKAGES += \
+    Via
