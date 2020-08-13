@@ -246,3 +246,14 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 # Fling Velocity
 ro.min.fling_velocity=160
 ro.max.fling_velocity=20000
+
+# Memory management tweaks
+ro.config.fha_enable=true
+ro.sys.fw.bg_apps_limit=32
+ro.config.dha_cached_max=16
+ro.config.dha_empty_max=42
+ro.config.dha_empty_init=32
+ro.config.dha_lmk_scale=0.545
+ro.config.dha_th_rate=2.3
+ro.config.sdha_apps_bg_max=64
+ro.config.sdha_apps_bg_min=8
