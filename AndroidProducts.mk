@@ -1,5 +1,6 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_santoni.mk
+    $(LOCAL_DIR)/derp_santoni.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_santoni-userdebug
+    derp_santoni-user \
+    derp_santoni-userdebug

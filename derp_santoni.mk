@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019 The Havoc-OS Project
+# Copyright (C) 2019 The Lineage Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,22 +16,22 @@
 
 $(call inherit-product, device/xiaomi/santoni/full_santoni.mk)
 
-# Inherit some common Revenge OS stuff.
-$(call inherit-product, vendor/revengeos/config/common.mk)
+# Inherit some common DerpFest stuff.
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 PRODUCT_DEVICE := santoni
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi 4
-PRODUCT_NAME := revengeos_santoni
+PRODUCT_MODEL := Redmi 4X
+PRODUCT_NAME := derp_santoni
 BOARD_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
 # Official
-REVENGEOS_BUILDTYPE=OFFICIAL
+DERP_BUILDTYPE=Official
 
 # Boot animation
-TARGET_BOOT_ANIMATION_RES := 720
-	
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \

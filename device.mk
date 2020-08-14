@@ -513,10 +513,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
    WfdCommon
 
-PRODUCT_BOOT_JARS += \
-   QPerformance \
-   UxPerformance
-
 #XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
