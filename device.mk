@@ -521,4 +521,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Via \
     QPGallery \
-    OTO
+    OTO \
+    RemovePackages
