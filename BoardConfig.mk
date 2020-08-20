@@ -217,6 +217,8 @@ BLOCK_BASED_OTA := true
 TARGET_PER_MGR_ENABLED := true
 
 # Power
+TARGET_PROVIDES_POWERHAL := true
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/enable_dt2w"
 TARGET_USES_INTERACTION_BOOST := true
 
 # Qualcomm
